@@ -13,7 +13,7 @@ function App() {
             const now = new Date();
             
             // Create a target date that's exactly 22 hours and 48 minutes from now
-            const targetDate = new Date(now.getTime() + (22 * 60 * 60 * 1000) + (48 * 60 * 1000));
+            const targetDate = new Date(now.getTime() + (22 * 60 * 60 * 1000) + (43 * 60 * 1000));
 
             const interval = setInterval(() => {
                 const now = new Date().getTime();
