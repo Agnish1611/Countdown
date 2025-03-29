@@ -12,8 +12,8 @@ function App() {
             // Get current date and time
             const now = new Date();
             
-            // Create a target date that's exactly 23 hours and 28 minutes from now
-            const targetDate = new Date(now.getTime() + (23 * 60 * 60 * 1000) + (28 * 60 * 1000));
+            // Create a target date that's exactly 22 hours and 48 minutes from now
+            const targetDate = new Date(now.getTime() + (22 * 60 * 60 * 1000) + (48 * 60 * 1000));
 
             const interval = setInterval(() => {
                 const now = new Date().getTime();
@@ -49,6 +49,7 @@ function App() {
         startTimer();
     }, []);
 
+    // Assuming your image is named "background.jpg" in the public folder
     const backgroundStyle = {
         backgroundImage: `url('/Quasarbg.png')`,
         backgroundSize: 'cover',
